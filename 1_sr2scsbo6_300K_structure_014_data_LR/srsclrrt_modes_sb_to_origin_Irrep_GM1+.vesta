@@ -1,0 +1,54 @@
+#VESTA_FORMAT_VERSION 3.1.9
+ 
+ 
+CRYSTAL
+TITLE
+  Symmetry Modes: srsclrrt_modes_sb_to_origin_Irrep_GM1+
+ 
+IMPORT_STRUCTURE
+srsclrrt_modes_sb_to_origin_parent.cif
+ 
+IMPORT_DENSITY 1
+ 
+BOUND
+    -0.1      1.1      -0.1      1.1      -0.1     1.1 
+  0   0   0   0  0
+SBOND
+  0 0 0 0
+ 
+VECTR
+  1   0.00000   0.00000   0.00000  1
+  1  0  0  0  0
+  0  0  0  0  0
+  2   0.00000   0.00000   0.00000  1
+  2  0  0  0  0
+  0  0  0  0  0
+  3   0.00000   0.00000   0.00000  1
+  3  0  0  0  0
+  0  0  0  0  0
+  4  -0.57551  -0.57406   0.00000  1
+  4  0  0  0  0
+  0  0  0  0  0
+  5   0.00000   0.00000  -0.81117  1
+  5  0  0  0  0
+  0  0  0  0  0
+  6   0.57551  -0.57406   0.00000  1
+  6  0  0  0  0
+  0  0  0  0  0
+  0  0  0  0  0
+ 
+VECTT
+  1  0.300   0   0 255  2
+  2  0.300   0   0 255  2
+  3  0.300   0   0 255  2
+  4  0.300   0   0 255  2
+  5  0.300   0   0 255  2
+  6  0.300   0   0 255  2
+  0  0  0  0  0
+ 
+STYLE
+MODEL   2  1  0
+SURFS   0  1  1
+SECTS  96  0
+POLYS  0
+VECTS     1.47934

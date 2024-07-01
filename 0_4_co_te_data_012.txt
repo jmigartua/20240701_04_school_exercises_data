@@ -1,0 +1,683 @@
+Brahim 2015
+
+Sr2CoTeO6
+
+RT
+Tesis
+014
+5.6437 5.6096 7.9271 90.00  90.059  90.00
+6
+Te    1    2a    0.0000   0.0000   0.0000
+Co    1    2b    0.0000   0.0000   0.5000
+Sr    1    4e    0.4999   0.0066   0.2493
+O     1    4e    0.9499   0.0028   0.7376
+O     2    4e    0.2751   0.2452   0.9721
+O     3    4e    0.7536   0.2727   0.0224
+
+
+RT
+# no standard
+14
+5.6434   5.6091   7.9271   90.000   89.950   90.000
+6
+Te  1    2a     0.00000     0.00000     0.00000
+Co  1    2b     0.00000     0.00000     0.50000
+Sr  1    4e    -0.00003     0.50030     0.24920
+O   1    4e    -0.74600     0.22850    -0.02380
+O   2    4e    -0.45030     0.50080    -0.26040
+O   3    4e    -0.22940     0.25180     0.02670
+
+
+P 1 21/n 1 [cell choice 2] -> P 1 21/c 1 [cell choice 1]
+
+# standard
+14
+7.9271 5.6091 9.7289 90.00 144.62 90.00
+6
+Te	1	2a	0.000000	0.000000	0.000000
+Co	1	2b	0.500000	0.000000	0.000000
+Sr	1	4e	0.249230	0.500300	0.000030
+O	1	4e	0.722200	0.228500	0.746000
+O	2	4e	0.189900	0.500800	0.450300
+O	3	4e	0.256100	0.251800	0.229400
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AMPLIMODES   #1
+
+- parent phase: from the previous example
+- RT phase, from the paper
+
+
+
+Symmetry mode analysis
+High symmetry structure
+Setting used: FM-3M
+Transformation Matrix: a,b,c
+225
+8.087481 8.087481 8.087481 90.00000 90.00000 90.00000
+4
+Te	1	4a	0.000000	0.000000	0.000000
+Co	1	4b	0.500000	0.500000	0.500000
+Sr	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.254100	0.000000	0.000000
+Low symmetry structure
+Setting used: P 1 21/n 1
+Transformation Matrix: c,b,-a-c
+14
+5.6334   5.6091   7.9271   90.000   89.950   90.000
+6
+Sr	1	4e	-0.000030	0.500300	0.249200
+Co	1	2b	0.000000	0.000000	0.500000
+Te	1	2a	0.000000	0.000000	0.000000
+O	1	4e	-0.746000	0.228500	-0.023800
+O	2	4e	-0.450300	0.500800	-0.260400
+O	3	4e	-0.229400	0.251800	0.026700
+Transformation matrix
+[   1/2   1/2     0 ] [      0]
+[  -1/2   1/2     0 ] [      0]
+[     0     0     1 ] [      0]
+Transformed high symmetry structure in the subgroup basis
+Reference Structure
+014
+8.087500 5.718726 9.905124 90.000000 144.735626 90.000000
+6
+Te	1	2a	0.000000	0.000000	0.000000
+Co	1	2b	0.500000	0.000000	0.000000
+Sr	1	4e	0.250000	0.500000	0.000000
+O	11	4e	0.745900	0.254100	0.745900
+O	11_2	4e	0.254100	0.500000	0.500000
+O	11_3	4e	0.254100	0.254100	0.254100
+Atom pairings and distances
+Atom Mappings
+WP	Atom	Reference Struc.	Atom	Low Sym Struc.
+2a	(0,0,0)	Te1	(0.000000,0.000000,0.000000)	Te1	(0.000000,0.000000,0.000000)
+2b	(1/2,0,0)	Co1	(0.000000,0.000000,0.500000)	Co1	(0.000000,0.000000,0.500000)
+4e	(x,y,z)	Sr1	(0.000000,0.500000,0.250000)	Sr1	(0.000000,0.500300,0.249230)
+4e	(x,y,z)	O11	(-0.745900,0.254100,0.000000)	O1	(-0.746000,0.228500,-0.023800)
+4e	(x,y,z)	O11_2	(-0.500000,0.500000,-0.245900)	O2	(-0.450300,0.500800,-0.260400)
+4e	(x,y,z)	O11_3	(-0.254100,0.254100,0.000000)	O3	(-0.229400,0.251800,0.026700)
+
+
+WP	Atom	Atomic Displacements
+ux	uy	uz	|u|
+2a	(0,0,0)	Te1	0.0000	0.0000	0.0000	0.0000
+2b	(1/2,0,0)	Co1	0.0000	0.0000	0.0000	0.0000
+4e	(x,y,z)	Sr1	0.0000	0.0003	-0.0008	0.0065
+4e	(x,y,z)	O11	-0.0001	-0.0256	-0.0238	0.2418
+4e	(x,y,z)	O11_2	0.0497	0.0008	-0.0145	0.3075
+4e	(x,y,z)	O11_3	0.0247	-0.0023	0.0267	0.2584
+
+NOTE: ux, uy and uz are given in relative units. |u| is the absolute distance given in Å
+Maximum atomic displacement in the distortion, Δ: 0.3075 Å
+Total distortion amplitude: 0.9377 Å
+Symmetry Modes Summary
+Atoms	WP	Modes
+O11	24e	GM1+(1) GM3+(1) GM4+(1) GM5+(2) X2+(1) X3+(1) X5+(2)
+Sr1	8c	GM5+(2) X5+(1)
+
+Summary of Amplitudes
+Warning: Amplitudes are given for modes normalized within the primitive unit cell of the distorted structure. Under this normalization, mode amplitudes in distorted structures with different multiplication of their primitive unit cell are not directly comparable.
+
+K-vector	Irrep	Direction	Isotropy
+Subgroup	Dimension	Amplitude (Å)
+(0,0,0)	GM1+	(a)	Fm-3m (225)	1	0.3815
+(0,0,0)	GM3+	(a,0)	I4/mmm (139)	1	0.0175
+(0,0,0)	GM4+	(a,a,0)	C2/m (12)	1	0.8104
+(0,0,0)	GM5+	(-b,a,-a)	C2/m (12)	4	0.0226
+(0,1,0)	X2+	(0,a,0)	P4_2/mnm (136)	1	0.0074
+(0,1,0)	X3+	(0,a,0)	P4/mnc (128)	1	0.2739
+(0,1,0)	X5+	(a,a,0,0,a,-a)	Pnnm (58)	3	0.0346
+
+Global distortion: 0.9377 Å
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AMPLIMODES   #2
+
+- parent phase: from the paper
+- RT phase, from the paper
+
+
+225
+7.9209 7.9209 7.9209 90.00000 90.00000 90.00000
+4
+Te	1	4a	0.000000	0.000000	0.000000
+Co	1	4b	0.500000	0.500000	0.500000
+Sr	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.247100	0.000000	0.000000
+
+
+
+Symmetry mode analysis
+High symmetry structure
+Setting used: FM-3M
+Transformation Matrix: a,b,c
+225
+7.9209 7.9209 7.9209 90.00000 90.00000 90.00000
+4
+Te	1	4a	0.000000	0.000000	0.000000
+Co	1	4b	0.500000	0.500000	0.500000
+Sr	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.247100	0.000000	0.000000
+Low symmetry structure
+Setting used: P 1 21/n 1
+Transformation Matrix: c,b,-a-c
+14
+5.6434   5.6091   7.9271   90.000   89.950   90.000
+6
+Sr	1	4e	-0.000030	0.500300	0.249200
+Co	1	2b	0.000000	0.000000	0.500000
+Te	1	2a	0.000000	0.000000	0.000000
+O	1	4e	-0.746000	0.228500	-0.023800
+O	2	4e	-0.450300	0.500800	-0.260400
+O	3	4e	-0.229400	0.251800	0.026700
+Transformation matrix
+[   1/2   1/2     0 ] [      0]
+[  -1/2   1/2     0 ] [      0]
+[     0     0     1 ] [      0]
+Transformed high symmetry structure in the subgroup basis
+Reference Structure
+014
+7.920900 5.600922 9.701081 90.000000 144.735611 90.000000
+6
+Te	1	2a	0.000000	0.000000	0.000000
+Co	1	2b	0.500000	0.000000	0.000000
+Sr	1	4e	0.250000	0.500000	0.000000
+O	11	4e	0.752900	0.247100	0.752900
+O	11_2	4e	0.247100	0.500000	0.500000
+O	11_3	4e	0.247100	0.247100	0.247100
+Atom pairings and distances
+Atom Mappings
+WP	Atom	Reference Struc.	Atom	Low Sym Struc.
+2a	(0,0,0)	Te1	(0.000000,0.000000,0.000000)	Te1	(0.000000,0.000000,0.000000)
+2b	(1/2,0,0)	Co1	(0.000000,0.000000,0.500000)	Co1	(0.000000,0.000000,0.500000)
+4e	(x,y,z)	Sr1	(0.000000,0.500000,0.250000)	Sr1	(0.000000,0.500300,0.249230)
+4e	(x,y,z)	O11	(-0.752900,0.247100,0.000000)	O1	(-0.746000,0.228500,-0.023800)
+4e	(x,y,z)	O11_2	(-0.500000,0.500000,-0.252900)	O2	(-0.450300,0.500800,-0.260400)
+4e	(x,y,z)	O11_3	(-0.247100,0.247100,0.000000)	O3	(-0.229400,0.251800,0.026700)
+
+
+WP	Atom	Atomic Displacements
+ux	uy	uz	|u|
+2a	(0,0,0)	Te1	0.0000	0.0000	0.0000	0.0000
+2b	(1/2,0,0)	Co1	0.0000	0.0000	0.0000	0.0000
+4e	(x,y,z)	Sr1	0.0000	0.0003	-0.0008	0.0063
+4e	(x,y,z)	O11	0.0069	-0.0186	-0.0238	0.2188
+4e	(x,y,z)	O11_2	0.0497	0.0008	-0.0075	0.2847
+4e	(x,y,z)	O11_3	0.0177	0.0047	0.0267	0.2350
+
+NOTE: ux, uy and uz are given in relative units. |u| is the absolute distance given in Å
+Maximum atomic displacement in the distortion, Δ: 0.2847 Å
+Total distortion amplitude: 0.8584 Å
+Symmetry Modes Summary
+Atoms	WP	Modes
+O11	24e	GM1+(1) GM3+(1) GM4+(1) GM5+(2) X2+(1) X3+(1) X5+(2)
+Sr1	8c	GM5+(2) X5+(1)
+
+Summary of Amplitudes
+Warning: Amplitudes are given for modes normalized within the primitive unit cell of the distorted structure. Under this normalization, mode amplitudes in distorted structures with different multiplication of their primitive unit cell are not directly comparable.
+
+K-vector	Irrep	Direction	Isotropy
+Subgroup	Dimension	Amplitude (Å)
+(0,0,0)	GM1+	(a)	Fm-3m (225)	1	0.1816
+(0,0,0)	GM3+	(a,0)	I4/mmm (139)	1	0.0171
+(0,0,0)	GM4+	(a,a,0)	C2/m (12)	1	0.7937
+(0,0,0)	GM5+	(-b,a,-a)	C2/m (12)	4	0.0221
+(0,1,0)	X2+	(0,a,0)	P4_2/mnm (136)	1	0.0073
+(0,1,0)	X3+	(0,a,0)	P4/mnc (128)	1	0.2683
+(0,1,0)	X5+	(a,a,0,0,a,-a)	Pnnm (58)	3	0.0339
+
+Global distortion: 0.8584 Å
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Ejercicio #1
+
+Faik 2008
+
+Sr2ScSbO6
+
+
+430 K
+# no standard
+12
+5.7021   5.6861   8.0293   90.000   90.040   90.000
+5
+Sb  1    2d     0.00000     0.00000     0.50000
+Sc  1    2a     0.00000     0.00000     0.00000
+Sr  1    4i     0.49930     0.00000     0.25210
+O   1    4i    -0.04840     0.00000     0.24390
+O   2    8j     0.24290     0.24410     0.02530
+
+
+EQUIVSTRU to take the Sb to the origin
+
+12
+5.7021 5.6861 8.0293 90.00 90.04 90.00
+5
+Sb	1	2a	0.000000	0.000000	 0.000000
+Sc	1	2c	0.000000	0.000000	-0.500000
+Sr	1	4i	0.499300	0.000000	-0.247900
+O	1	4i	-0.048400	0.000000	-0.256100
+O	2	8j	0.242900	0.244100	-0.474700
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Symmetry mode analysis
+High symmetry structure
+Setting used: FM-3M
+Transformation Matrix: a,b,c
+225
+8.087481 8.087481 8.087481 90.00000 90.00000 90.00000
+4
+Sb	1	4a	0.000000	0.000000	0.000000
+Sc	1	4b	0.500000	0.500000	0.500000
+Sr	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.254100	0.000000	0.000000
+Low symmetry structure
+Setting used: I 1 2/m 1
+Transformation Matrix: -a-c,b,a
+12
+5.7021 5.6861 8.0293 90.00 90.04 90.00
+5
+Sb	1	2a	0.000000	0.000000	0.000000
+Sc	1	2c	0.000000	0.000000	-0.500000
+Sr	1	4i	0.499300	0.000000	-0.247900
+O	1	4i	-0.048400	0.000000	-0.256100
+O	2	8j	0.242900	0.244100	-0.474700
+Transformation matrix
+[   1/2   1/2     0 ] [      0]
+[  -1/2   1/2     0 ] [      0]
+[     0     0     1 ] [      0]
+Transformed high symmetry structure in the subgroup basis
+Reference Structure
+012
+9.905124 5.718726 5.718726 90.000000 125.264389 90.000000
+5
+Sb	1	2a	0.000000	0.000000	0.000000
+Sc	1	2d	0.500000	0.000000	0.500000
+Sr	1	4i	0.750000	0.500000	0.750000
+O	11	8j	0.000000	0.254100	0.254100
+O	11_2	4i	0.745900	0.000000	0.745900
+Atom pairings and distances
+Atom Mappings
+WP	Atom	Reference Struc.	Atom	Low Sym Struc.
+2a	(0,0,0)	Sb1	(0.000000,0.000000,0.000000)	Sb1	(0.000000,0.000000,0.000000)
+2d	(0,1/2,1/2)	Sc1	(0.000000,0.000000,-0.500000)	Sc1	(0.000000,0.000000,-0.500000)
+4i	(x,0,z)	Sr1	(0.000000,0.500000,-0.750000)	Sr1	(-0.000700,0.500000,-0.747900)
+8j	(x,y,z)	O11	(0.254100,0.254100,0.000000)	O2	(0.257100,0.255900,-0.025300)
+4i	(x,0,z)	O11_2	(0.000000,0.000000,-0.745900)	O1	(0.048400,0.000000,-0.743900)
+
+
+WP	Atom	Atomic Displacements
+ux	uy	uz	|u|
+2a	(0,0,0)	Sb1	0.0000	0.0000	0.0000	0.0000
+2d	(0,1/2,1/2)	Sc1	0.0000	0.0000	0.0000	0.0000
+4i	(x,0,z)	Sr1	-0.0007	0.0000	0.0021	0.0174
+8j	(x,y,z)	O11	0.0030	0.0018	-0.0253	0.2056
+4i	(x,0,z)	O11_2	0.0484	0.0000	0.0020	0.2773
+
+NOTE: ux, uy and uz are given in relative units. |u| is the absolute distance given in Å
+Maximum atomic displacement in the distortion, Δ: 0.2773 Å
+Total distortion amplitude: 0.5688 Å
+Symmetry Modes Summary
+Atoms	WP	Modes
+O11	24e	GM1+(1) GM3+(1) GM4+(1) GM5+(2)
+Sr1	8c	GM5+(2)
+Note: The primary mode is written in bold letters
+
+Summary of Amplitudes
+K-vector	Irrep	Direction	Isotropy
+Subgroup	Dimension	Amplitude (Å)
+(0,0,0)	GM1+	(a)	Fm-3m (225)	1	0.0449
+(0,0,0)	GM3+	(a,0)	I4/mmm (139)	1	0.0037
+(0,0,0)	GM4+	(a,a,0)	C2/m (12)	1	0.5662
+(0,0,0)	GM5+	(-b,a,-a)	C2/m (12)	4	0.0294
+
+Global distortion: 0.5687 Å
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+615 K
+# standard
+87
+5.6929   5.6929   8.0641   90.000   90.000   90.000
+5
+Sb  1    2a     0.00000     0.00000     0.50000
+Sc  1    2b     0.00000     0.00000     0.00000
+Sr  1    4d     0.00000     0.50000     0.25000
+O   1    4e     0.00000     0.00000     0.24550
+O   2    8h     0.27700     0.21250     0.00000
+
+
+Take the Sb to the origin
+
+87
+5.6929 5.6929 8.0641 90.00 90.00 90.00
+5
+Sb	1	2a	0.000000	0.000000	0.000000
+Sc	1	2b	0.000000	0.000000	0.500000
+Sr	1	4d	-0.500000	0.000000	0.250000
+O	1	4e	0.000000	0.000000	0.254500
+O	2	8h	-0.212500	-0.277000	0.500000
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+Symmetry mode analysis
+High symmetry structure
+225
+8.087481 8.087481 8.087481 90.00000 90.00000 90.00000
+4
+Sb	1	4a	0.000000	0.000000	0.000000
+Sc	1	4b	0.500000	0.500000	0.500000
+Sr	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.254100	0.000000	0.000000
+Low symmetry structure
+87
+5.6929 5.6929 8.0641 90.00 90.00 90.00
+5
+Sr	1	4d	-0.500000	0.000000	0.250000
+Sb	1	2a	0.000000	0.000000	0.000000
+Sc	1	2b	0.000000	0.000000	0.500000
+O	1	4e	0.000000	0.000000	0.254500
+O	2	8h	-0.212500	-0.277000	0.500000
+Transformation matrix
+[   1/2   1/2     0 ] [      0]
+[  -1/2   1/2     0 ] [      0]
+[     0     0     1 ] [      0]
+Transformed high symmetry structure in the subgroup basis
+Reference Structure
+087
+5.718712 5.718712 8.087481 90.000000 90.000000 90.000000
+5
+Sb	1	2a	0.000000	0.000000	0.000000
+Sc	1	2b	0.000000	0.000000	0.500000
+Sr	1	4d	0.000000	0.500000	0.250000
+O	11	8h	0.254100	0.254100	0.000000
+O	11_2	4e	0.000000	0.000000	0.254100
+Atom pairings and distances
+Atom Mappings
+WP	Atom	Reference Struc.	Atom	Low Sym Struc.
+2a	(0,0,0)	Sb1	(0.000000,0.000000,0.000000)	Sb1	(0.000000,0.000000,0.000000)
+2b	(0,0,1/2)	Sc1	(0.000000,0.000000,0.500000)	Sc1	(0.000000,0.000000,0.500000)
+4d	(0,1/2,1/4)	Sr1	(0.000000,0.500000,0.250000)	Sr1	(0.000000,0.500000,0.250000)
+8h	(x,y,0)	O11	(0.254100,0.254100,0.000000)	O2	(0.287500,0.223000,0.000000)
+4e	(0,0,z)	O11_2	(0.000000,0.000000,0.254100)	O1	(0.000000,0.000000,0.254500)
+
+
+WP	Atom	Atomic Displacements
+ux	uy	uz	|u|
+2a	(0,0,0)	Sb1	0.0000	0.0000	0.0000	0.0000
+2b	(0,0,1/2)	Sc1	0.0000	0.0000	0.0000	0.0000
+4d	(0,1/2,1/4)	Sr1	0.0000	0.0000	0.0000	0.0000
+8h	(x,y,0)	O11	0.0334	-0.0311	0.0000	0.2610
+4e	(0,0,z)	O11_2	0.0000	0.0000	0.0004	0.0032
+
+NOTE: ux, uy and uz are given in relative units. |u| is the absolute distance given in Å
+Maximum atomic displacement in the distortion, Δ: 0.2610 Å
+Total distortion amplitude: 0.5220 Å
+Symmetry Modes Summary
+Atoms	WP	Modes
+O11	24e	GM1+(1) GM3+(1) GM4+(1)
+Note: The primary mode is written in bold letters
+
+Summary of Amplitudes
+K-vector	Irrep	Direction	Isotropy
+Subgroup	Dimension	Amplitude (Å)
+(0,0,0)	GM1+	(a)	Fm-3m (225)	1	0.0178
+(0,0,0)	GM3+	(a,0)	I4/mmm (139)	1	0.0070
+(0,0,0)	GM4+	(0,0,a)	I4/m (87)	1	0.5216
+
+Global distortion: 0.5220 Å
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Ejercicio #2
+
+Brahim 2015
+
+La2CoMnO6
+
+
+RT
+# no standard
+014
+5.5251   5.4875   7.7786   90.000   89.940   90.000
+6
+Mn  1    2a     0.00000     0.00000     0.00000
+Co  1    2b     0.00000     0.00000     0.50000
+La  1    4e    -0.00660     0.46450     0.74990
+O   1    4e    -0.27710     0.21680    -0.03620
+O   2    4e    -0.79820     0.29420     0.04000
+O   3    4e     0.07530     0.01280     0.75800
+
+
+P 1 21/n 1 [ cell choice 2 ]	P=-a-c,b,a		P-1=c,b,-a-c  ->  P 1 21/c 1 [ cell choice 1 ]	a,b,c	a,b,c
+
+014
+7.7786 5.4875 9.5459 90.00 144.63 90.00
+6
+Mn	1	2a	0.000000	0.000000	 0.000000
+Co	1	2b	0.500000	0.000000	 0.000000
+La	1	4e	0.756500	0.464500	 0.006600
+O	1	4e	0.240900	0.216800	 0.277100
+O	2	4e	0.838200	0.294200	 0.798200
+O	3	4e	0.682700	0.012800	-0.075300
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Symmetry mode analysis
+High symmetry structure
+225
+8.087481 8.087481 8.087481 90.00000 90.00000 90.00000
+4
+Mn	1	4a	0.000000	0.000000	0.000000
+Co	1	4b	0.500000	0.500000	0.500000
+La	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.254100	0.000000	0.000000
+Low symmetry structure
+014
+7.7786 5.4875 9.5459 90.00 144.63 90.00
+6
+Mn	1	2a	0.000000	0.000000	0.000000
+Co	1	2b	0.500000	0.000000	0.000000
+La	1	4e	0.756500	0.464500	0.006600
+O	1	4e	0.240900	0.216800	0.277100
+O	2	4e	0.838200	0.294200	0.798200
+O	3	4e	0.682700	0.012800	-0.075300
+Transformation matrix
+[     0   1/2  -1/2 ] [      0]
+[     0   1/2   1/2 ] [      0]
+[     1     0    -1 ] [      0]
+Transformed high symmetry structure in the subgroup basis
+Reference Structure
+014
+8.087481 5.718712 9.905100 90.000000 144.735611 90.000000
+6
+Mn	1	2a	0.000000	0.000000	0.000000
+Co	1	2b	0.500000	0.000000	0.000000
+La	1	4e	0.250000	0.500000	0.000000
+O	11	4e	0.745900	0.254100	0.745900
+O	11_2	4e	0.254100	0.500000	0.500000
+O	11_3	4e	0.254100	0.254100	0.254100
+Atom pairings and distances
+Atom Mappings
+WP	Atom	Reference Struc.	Atom	Low Sym Struc.
+2a	(0,0,0)	Mn1	(0.000000,0.000000,0.000000)	Mn1	(0.000000,0.000000,0.000000)
+2b	(1/2,0,0)	Co1	(0.500000,0.000000,0.000000)	Co1	(0.500000,0.000000,0.000000)
+4e	(x,y,z)	La1	(0.250000,0.500000,0.000000)	La1	(0.243500,0.535500,0.993400)
+4e	(x,y,z)	O11	(0.745900,0.254100,0.745900)	O2	(0.838200,0.294200,0.798200)
+4e	(x,y,z)	O11_2	(0.254100,0.500000,0.500000)	O3	(0.317300,0.512800,0.575300)
+4e	(x,y,z)	O11_3	(0.254100,0.254100,0.254100)	O1	(0.240900,0.216800,0.277100)
+
+
+WP	Atom	Atomic Displacements
+ux	uy	uz	|u|
+2a	(0,0,0)	Mn1	0.0000	0.0000	0.0000	0.0000
+2b	(1/2,0,0)	Co1	0.0000	0.0000	0.0000	0.0000
+4e	(x,y,z)	La1	-0.0065	0.0355	-0.0066	0.2065
+4e	(x,y,z)	O11	0.0923	0.0401	0.0523	0.4967
+4e	(x,y,z)	O11_2	0.0632	0.0128	0.0753	0.4476
+4e	(x,y,z)	O11_3	-0.0132	-0.0373	0.0230	0.3854
+
+NOTE: ux, uy and uz are given in relative units. |u| is the absolute distance given in Å
+Maximum atomic displacement in the distortion, Δ: 0.4967 Å
+Total distortion amplitude: 1.5978 Å
+Symmetry Modes Summary
+Atoms	WP	Modes
+O11	24e	GM1+(1) GM3+(1) GM4+(1) GM5+(2) X2+(1) X3+(1) X5+(2)
+La1	8c	GM5+(2) X5+(1)
+
+Summary of Amplitudes
+Warning: Amplitudes are given for modes normalized within the primitive unit cell of the distorted structure. Under this normalization, mode amplitudes in distorted structures with different multiplication of their primitive unit cell are not directly comparable.
+
+K-vector	Irrep	Direction	Isotropy
+Subgroup	Dimension	Amplitude (Å)
+(0,0,0)	GM1+	(a)	Fm-3m (225)	1	0.2367
+(0,0,0)	GM3+	(a,0)	I4/mmm (139)	1	0.0723
+(0,0,0)	GM4+	(a,a,0)	C2/m (12)	1	1.2253
+(0,0,0)	GM5+	(-b,a,-a)	C2/m (12)	4	0.1986
+(0,1,0)	X2+	(0,a,0)	P4_2/mnm (136)	1	0.0120
+(0,1,0)	X3+	(0,a,0)	P4/mnc (128)	1	0.8732
+(0,1,0)	X5+	(a,a,0,0,a,-a)	Pnnm (58)	3	0.4338
+
+Global distortion: 1.5978 Å
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% The same thing, but with the data from the paper, and non-standard
+
+225
+7.9200 7.9200 7.9200 90.00000 90.00000 90.00000
+4
+Mn	1	4a	0.000000	0.000000	0.000000
+Co	1	4b	0.500000	0.500000	0.500000
+La	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.257100	0.000000	0.000000
+
+
+
+014
+5.5251   5.4875   7.7786   90.000   89.940   90.000
+6
+Mn  1    2a     0.00000     0.00000     0.00000
+Co  1    2b     0.00000     0.00000     0.50000
+La  1    4e    -0.00660     0.46450     0.74990
+O   1    4e    -0.27710     0.21680    -0.03620
+O   2    4e    -0.79820     0.29420     0.04000
+O   3    4e     0.07530     0.01280     0.75800
+
+
+
+Symmetry mode analysis
+High symmetry structure
+Setting used: FM-3M
+Transformation Matrix: a,b,c
+225
+7.9200 7.9200 7.9200 90.00000 90.00000 90.00000
+4
+Mn	1	4a	0.000000	0.000000	0.000000
+Co	1	4b	0.500000	0.500000	0.500000
+La	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.257100	0.000000	0.000000
+Low symmetry structure
+Setting used: P 1 21/n 1
+Transformation Matrix: c,b,-a-c
+014
+5.5251   5.4875   7.7786   90.000   89.940   90.000
+6
+Mn	1	2a	0.000000	0.000000	0.000000
+Co	1	2b	0.000000	0.000000	0.500000
+La	1	4e	-0.006600	0.464500	0.749900
+O	1	4e	-0.277100	0.216800	-0.036200
+O	2	4e	-0.798200	0.294200	0.040000
+O	3	4e	0.075300	0.012800	0.758000
+Transformation matrix
+[   1/2   1/2     0 ] [      0]
+[  -1/2   1/2     0 ] [      0]
+[     0     0     1 ] [      0]
+Transformed high symmetry structure in the subgroup basis
+Reference Structure
+014
+7.920000 5.600286 9.699980 90.000000 144.735611 90.000000
+6
+Mn	1	2a	0.000000	0.000000	0.000000
+Co	1	2b	0.500000	0.000000	0.000000
+La	1	4e	0.250000	0.500000	0.000000
+O	11	4e	0.742900	0.257100	0.742900
+O	11_2	4e	0.257100	0.500000	0.500000
+O	11_3	4e	0.257100	0.257100	0.257100
+Atom pairings and distances
+Atom Mappings
+WP	Atom	Reference Struc.	Atom	Low Sym Struc.
+2a	(0,0,0)	Mn1	(0.000000,0.000000,0.000000)	Mn1	(0.000000,0.000000,0.000000)
+2b	(1/2,0,0)	Co1	(0.000000,0.000000,0.500000)	Co1	(0.000000,0.000000,0.500000)
+4e	(x,y,z)	La1	(0.000000,0.500000,0.250000)	La1	(-0.993400,0.535500,-0.749900)
+4e	(x,y,z)	O11	(-0.742900,0.257100,0.000000)	O2	(-0.798200,0.294200,0.040000)
+4e	(x,y,z)	O11_2	(-0.500000,0.500000,-0.242900)	O3	(-0.575300,0.512800,-0.258000)
+4e	(x,y,z)	O11_3	(-0.257100,0.257100,0.000000)	O1	(-0.277100,0.216800,-0.036200)
+
+
+WP	Atom	Atomic Displacements
+ux	uy	uz	|u|
+2a	(0,0,0)	Mn1	0.0000	0.0000	0.0000	0.0000
+2b	(1/2,0,0)	Co1	0.0000	0.0000	0.0000	0.0000
+4e	(x,y,z)	La1	0.0066	0.0355	0.0001	0.2022
+4e	(x,y,z)	O11	-0.0553	0.0371	0.0400	0.4893
+4e	(x,y,z)	O11_2	-0.0753	0.0128	-0.0151	0.4442
+4e	(x,y,z)	O11_3	-0.0200	-0.0403	-0.0362	0.3817
+
+NOTE: ux, uy and uz are given in relative units. |u| is the absolute distance given in Å
+Maximum atomic displacement in the distortion, Δ: 0.4893 Å
+Total distortion amplitude: 1.5790 Å
+Symmetry Modes Summary
+Atoms	WP	Modes
+O11	24e	GM1+(1) GM3+(1) GM4+(1) GM5+(2) X2+(1) X3+(1) X5+(2)
+La1	8c	GM5+(2) X5+(1)
+
+Summary of Amplitudes
+Warning: Amplitudes are given for modes normalized within the primitive unit cell of the distorted structure. Under this normalization, mode amplitudes in distorted structures with different multiplication of their primitive unit cell are not directly comparable.
+
+K-vector	Irrep	Direction	Isotropy
+Subgroup	Dimension	Amplitude (Å)
+(0,0,0)	GM1+	(a)	Fm-3m (225)	1	0.3141
+(0,0,0)	GM3+	(a,0)	I4/mmm (139)	1	0.0708
+(0,0,0)	GM4+	(a,a,0)	C2/m (12)	1	1.1999
+(0,0,0)	GM5+	(-b,a,-a)	C2/m (12)	4	0.1945
+(0,1,0)	X2+	(0,a,0)	P4_2/mnm (136)	1	0.0118
+(0,1,0)	X3+	(0,a,0)	P4/mnc (128)	1	0.8552
+(0,1,0)	X5+	(a,a,0,0,a,-a)	Pnnm (58)	3	0.4248
+
+Global distortion: 1.5790 Å
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+

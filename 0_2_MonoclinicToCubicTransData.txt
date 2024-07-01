@@ -1,0 +1,128 @@
+Used data for the modes calculation in the Sr2ScSbO6
+
+Cubic phase structure (Fm-3m) from Carlo X-ray data
+
+225
+8.087481 8.087481 8.087481 90.00000 90.00000 90.00000
+4
+Sc    1   4b    0.00000 0.00000 0.00000                 
+Sb    1   4a    0.50000 0.50000 0.50000                 
+Sr    1   8c    0.25000 0.25000 0.25000                 
+O     11  24e   0.25410 0.00000 0.00000  
+                
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Monoclinic phase structure (I2/m; non-standard, C2/m, Nยบ12) from BENSC2008 E9 neutron data at 430K
+
+12 I 1 2/M 1
+5.70211   5.68611   8.02931  90.000000  89.956  90.000000
+5
+Sb     1    -      0.00000  0.00000  0.50000 
+Sc     1    -      0.00000  0.00000  0.00000 
+Sr     1    -      0.49931  0.00000  0.24940 
+O      1    -     -0.04858  0.00000  0.25599  
+O      2    -      0.25649  0.25551  0.02363  
+
+
+Transformed to the standard setting via SETSTRU
+
+12
+9.8516 5.6861 5.7021 90.00 125.41 90.00
+5
+Sb    1   2d    -0.5 0 -0.5             
+Sc    1   2a    0 0 0                   
+Sr    1   4i    -0.2494 0 0.24991       
+O     1   4i    -0.25599 0 -0.30457     
+O     2   8j    -0.02363 0.25551 0.23286                                                                                            
+                                                                                                
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Transformation matrix:
+
+-0.5    0.5    0.5       0
+ 0.5    0.5   -0.5       0
+-1      0      0         0
+
+
+
+
+                
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+AMPLIMODES results
+
+Symmetry mode analysis
+
+Symmetry mode analysis
+High symmetry structure
+225
+8.087481 8.087481 8.087481 90.00000 90.00000 90.00000
+4
+Sc	1	4a	0.000000	0.000000	0.000000
+Sb	1	4b	0.500000	0.500000	0.500000
+Sr	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.254100	0.000000	0.000000
+Low symmetry structure
+12
+9.8516 5.6861 5.7021 90.00 125.41 90.00
+5
+Sb	1	2d	-0.500000	0.000000	-0.500000
+Sc	1	2a	0.000000	0.000000	0.000000
+Sr	1	4i	-0.249400	0.000000	0.249910
+O	1	4i	-0.255990	0.000000	-0.304570
+O	2	8j	-0.023630	0.255510	0.232860
+Transformation matrix
+[  -1/2   1/2   1/2 ] [      0]
+[   1/2   1/2  -1/2 ] [      0]
+[    -1     0     0 ] [      0]
+Transformed high symmetry structure in the subgroup basis
+Reference Structure
+012
+9.905100 5.718712 5.718712 90.000000 125.264389 90.000000 
+5
+Sc	1	2a	0.000000	0.000000	0.000000
+Sb	1	2d	0.500000	0.000000	0.500000
+Sr	1	4i	0.750000	0.500000	0.750000
+O	11	8j	0.000000	0.254100	0.254100
+O	11_2	4i	0.745900	0.000000	0.745900
+Atom pairings and distances
+ 
+Atom Mappings						   
+WP		Atom	Reference Struc.	Atom	Low Sym Struc.	   
+2a	(0,0,0)	Sc1	(0.000000,0.000000,0.000000)	Sc1	(0.000000,0.000000,0.000000)	   
+2d	(0,1/2,1/2)	Sb1	(0.500000,0.000000,0.500000)	Sb1	(0.500000,0.000000,0.500000)	   
+4i	(x,0,z)	Sr1	(0.750000,0.500000,0.750000)	Sr1	(0.749400,0.500000,0.750090)	   
+8j	(x,y,z)	O11	(0.000000,0.254100,0.254100)	O2	(0.976370,0.255510,0.232860)	   
+4i	(x,0,z)	O11_2	(0.745900,0.000000,0.745900)	O1	(0.744010,0.000000,0.695430)	 
+
+  
+WP		Atom	Atomic Displacements				   
+ 		 	ux	uy	uz	|u|	   
+2a	(0,0,0)	Sc1 	0.0000 	0.0000 	0.0000 	0.0000	   
+2d	(0,1/2,1/2)	Sb1 	0.0000 	0.0000 	0.0000 	0.0000	   
+4i	(x,0,z)	Sr1 	-0.0006 	0.0000 	0.0001 	0.0063	   
+8j	(x,y,z)	O11 	-0.0236 	0.0014 	-0.0212 	0.1918	   
+4i	(x,0,z)	O11_2 	-0.0019 	0.0000 	-0.0505 	0.2782	 
+
+NOTE: ux, uy and uz are given in relative units. |u| is the absolute distance given in ล
+Maximum atomic displacement in the distortion, ?: 0.2782 ล
+Total distortion amplitude: 0.5496 ล
+
+Symmetry Modes Summary
+ 
+Atoms	WP	Modes	   
+O11	24e	GM1+(1) GM3+(1) GM4+(1) GM5+(2)	   
+Sr1	8c	GM5+(2)	 
+Note: The primary mode is written in bold letters
+
+Summary of Amplitudes
+ 
+K-vector	Irrep	Direction	Isotropy
+Subgroup	Dimension	Amplitude (ล)	   
+(0,0,0)	GM1+	(a)	Fm-3m (225)	1	0.0376	   
+(0,0,0)	GM3+	(a,0)	I4/mmm (139)	1	0.0001	   
+(0,0,0)	GM4+	(a,a,0)	C2/m (12)	1	0.5481	   
+(0,0,0)	GM5+	(-b,a,-a)	C2/m (12)	4	0.0141	 
+
+Global distortion: 0.5495 ล
+

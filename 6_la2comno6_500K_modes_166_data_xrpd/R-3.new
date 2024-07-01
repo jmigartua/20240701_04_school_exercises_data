@@ -1,0 +1,88 @@
+COMM La2CoMnO6 R-3 Modes
+! Current global Chi2 (Bragg contrib.) =      55.29    
+! Files => DAT-file: t7.dat,  PCR-file: r-3
+!Job Npr Nph Nba Nex Nsc Nor Dum Iwg Ilo Ias Res Ste Nre Cry Uni Cor Opt Aut
+   0   5   1  15   2   0   0   1   0   0   1   0   0   0   0   0   0   0   0
+!
+!Ipr Ppl Ioc Mat Pcr Ls1 Ls2 Ls3 NLI Prf Ins Rpa Sym Hkl Fou Sho Ana
+   0   0   1   0   2   0   4   0   0   3  10  -1   0   0   0   0   0
+!
+! Lambda1  Lambda2    Ratio    Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz  2nd-muR -> Patt# 1
+ 1.540598 1.544426  0.50000   44.000 32.0000  0.0000  0.0000  100.00    0.0000  0.0000
+!
+!NCY  Eps  R_at  R_an  R_pr  R_gl     Thmin       Step       Thmax    PSD    Sent0
+ 30  0.10  1.00  1.00  1.00  1.00     15.0000   0.066710   120.0021   0.000   0.000
+!
+!2Theta/TOF/E(Kev)   Background  for Pattern#  1
+        15.4931       543.7010          0.00
+        20.4576       497.4133          0.00
+        23.8747       465.0120          0.00
+        27.8887       537.7624          0.00
+        30.3006       548.3297          0.00
+        37.5633       489.7373          0.00
+        49.7533       505.9093          0.00
+        61.9991       555.3470          0.00
+        75.5664       518.2689          0.00
+        89.5742       518.2689          0.00
+        94.1553       666.5817          0.00
+       100.2342       530.6280          0.00
+       103.2934       533.4102          0.00
+       108.0750       580.0657          0.00
+       118.0836       542.7648          0.00
+! 
+! Excluded regions (LowT  HighT) for Pattern#  1
+      120.00      160.00
+        0.00       21.30
+! 
+!
+      11    !Number of refined parameters
+!
+!  Zero    Code    SyCos    Code   SySin    Code  Lambda     Code MORE ->Patt# 1
+ -0.00078   41.0  0.00000    0.0  0.00000    0.0 0.000000    0.00   0
+!-------------------------------------------------------------------------------
+!  Data for PHASE number:   1  ==> Current R_Bragg for Pattern#  1:    16.72
+!-------------------------------------------------------------------------------
+La2 Co Mn O6                             FIX xyz
+!
+!Nat Dis Ang Pr1 Pr2 Pr3 Jbt Irf Isy Str Furth       ATZ    Nvk Npr More
+   4   0   0 0.0 0.0 1.0   6   0   0   0   4        913.542   0   5   0
+!
+R -3                     <--Space group symbol
+!Atom   Typ       X        Y        Z     Biso       Occ     In Fin N_t Spc /Codes
+Mn1    Mn+4    0.00000  0.00000  0.00000  0.21544   0.16667   0   0   0    1  
+                  0.00     0.00     0.00   131.00      0.00
+Co1    Co+2    0.00000  0.00000  0.50000  0.21544   0.16667   0   0   0    1  
+                  0.00     0.00     0.00   131.00      0.00
+La1    La+3    0.00000  0.00000  0.25000  0.40734   0.33333   0   0   0    1  
+                  0.00     0.00     0.00   141.00      0.00
+O1     O-2     0.67048  0.83524  0.08238  0.31987   1.00000   0   0   0    1  
+                  0.00     0.00     0.00   151.00      0.00
+! Polarisation Vectors of Symmetry Modes for each atom 
+V_MODES    4
+! Nm  Atm     Irrep               Vx        Vy        Vz         Coeff
+   1  O1      GM1+           -0.068721 -0.034360  0.017180    1.000000
+   2  O1      GM4+            0.000000 -0.072889  0.000000    1.000000
+   3  La1     GM5+            0.000000  0.000000  0.051541    1.000000
+   4  O1      GM5+            0.048593  0.024297  0.024297    1.000000
+! Amplitudes of Symmetry Modes  
+A_MODES    4     2
+Max_Amplitude    1.5000
+      A1_GM1+             0.236165     91.000000
+      A2_GM4+            -0.687097    101.000000
+      A3_GM5+             0.000000      0.000000
+      A4_GM5+            -0.377698    111.000000
+!-------> Profile Parameters for Pattern #  1
+!  Scale        Shape1      Bov      Str1      Str2      Str3   Strain-Model
+ 0.14421E-02   0.40358   0.00000   0.00000   0.00000   0.00000       0
+    11.00000    61.000     0.000     0.000     0.000     0.000
+!       U         V          W           X          Y        GauSiz   LorSiz Size-Model
+  -0.023546   0.066622   0.103983   0.000000   0.000000   0.000000   0.000000    0
+     81.000     71.000     51.000      0.000      0.000      0.000      0.000
+!     a          b         c        alpha      beta       gamma      #Cell Info
+   5.522640   5.522640  13.297350  90.000000  90.000000 120.000000   
+   21.00000   21.00000   31.00000    0.00000    0.00000   21.00000
+!  Pref1    Pref2      Asy1     Asy2     Asy3     Asy4  
+  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+     0.00     0.00     0.00     0.00     0.00     0.00
+!  2Th1/TOF1    2Th2/TOF2  Pattern # 1
+      15.000     120.002       1

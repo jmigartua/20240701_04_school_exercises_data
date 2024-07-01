@@ -1,0 +1,19 @@
+!
+Title  CFL-file generated from FullProf for phase:      Sr2 Sc Sb O6              FIX xyz
+CELL  5.69441(5)  5.68009(5)  8.02621(7)  90.0000  90.0506(15)  90.0000
+!
+SpGR  P 1 21/n 1
+!
+!  Atom-strings in the order: Label, Species, x, y, z, Biso, Occ [,2*Spin, charge]
+Atom Sb1    SR+2   0.00000       0.00000       0.00000       0.14020       0.50000
+Atom Sc1    SR+2   0.00000       0.00000       0.50000       0.14020       0.50000
+Atom Sr1    SR+2   0.00000       0.5096(4)     0.25000       0.32583       1.00000
+Atom O11    SR+2  -0.7735(3)     0.2615(3)     0.02561(9)    0.49182       1.00000
+Atom O11_2  SR+2  -0.55123(19)   0.5045(8)    -0.25601(19)   0.49182       1.00000
+Atom O11_3  SR+2  -0.2615(3)     0.2265(3)    -0.02561(9)    0.49182       1.00000
+!
+!   Bond_STR instructions 
+DISTANCE 
+RESTRAINTS 
+DMAX   3.2000  3.2000
+TOL    0.0000

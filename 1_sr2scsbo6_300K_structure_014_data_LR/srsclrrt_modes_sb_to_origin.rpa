@@ -1,0 +1,393 @@
+TITL   SrScLRRT P21/n modes LR RT
+FILES => PCR-file : srsclrrt_modes_sb_to_origin
+FILES => DAT-files: SrScLRRT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+DATE & TIME     Date: 01/07/2022  Time: 18:05:32.006                              
+REM   NPHASE    IDUM   IASG    NRELL   ICRYG 
+GLB1     1       1       1       0       0
+REM   JOBTYP   NPROF  NBCKGD   NEXCRG   NSCAT   NORI
+GLB1     1       7      33       2       0       0
+REM    IWGT    ILOR   IRESO    ISTEP    IXUNIT  ICORR 
+GLB2     0       0       0       0       0       0
+REM   IOT   IPL   IPC   MAT   NXT  lst1  lst2  lst3  NLIN  PL_PRF
+OUT1    0     0     1     0     2     0     4     0     0    -3
+REM   instr  JCIL  JSY  jlkh  jfou ISHOR ianaly
+OUT2    0     1     1     0     0     1     1
+REM    MAT   NXT   NLIN  JCIL  JSY  ISHOR 
+OUT1    0     2     0     1     1     1
+REM    IOT   IPL   IPC  LST1  LST2  LST3  
+OUT2    0     0     1     0     4     0
+REM  PL_PRF INSTR  JLKH JFOU  IANALY
+OUT3   -3     0     0     0     1
+DATT        0   0        0.00
+PHAS1      Sr2 Sc Sb O6             
+SPGR P 1 21/n 1          
+NATM    6
+COND    6   0   0  12
+ATOM Sb1      0.00000   0.00000   0.00000   0.50000   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sc1      0.00000   0.00000   0.50000   0.50000   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sr1      0.00000   0.50000   0.25000   0.50000   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11     -0.74590   0.25410   0.00000   0.50000   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_2   -0.50000   0.50000  -0.24590   0.50000   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_3   -0.25410   0.25410   0.00000   0.50000   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+CELL    5.69441   5.68009   8.02620  90.00000  90.05038  90.00000
+SIGM    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+NNVK     0
+SCAL    1.098899961   0.000000000
+SHAP   0.00000  0.00000
+BOVE    0.0000   0.0000
+HUVW    0.1518   0.0000  -0.4215   0.0000   0.3815   0.0000
+PREF    0.0000   0.0000   0.0000   0.0000
+ASYM    0.0817   0.0000   0.0180   0.0000   0.0000   0.0000   0.0000   0.0000
+XYPA    0.0418   0.0000   0.0000   0.0000
+STRA    0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+SIZE    0.0000   0.0000   0.0000   0.0000
+ZERO    0.08460   0.00000
+RFAR   6.103      7.948      4.471      3.160    
+RFAC   12.59      13.15      7.395      3.160        2649
+DEVA   8896.      3.357     0.7963E-01  1.879    
+RFBR   6.103      7.948      4.471      3.160    
+RFBC   12.59      13.15      7.395      3.160        2649
+DEVB   8896.      3.357     0.7963E-01  1.879    
+BRAG1    8.986    5.771     259.606     100.000     875.885       1.000
+--------------------------------------------------------------------------------
+TITL   SrScLRRT P21/n modes LR RT
+FILES => PCR-file : srsclrrt_modes_sb_to_origin
+FILES => DAT-files: SrScLRRT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+DATE & TIME     Date: 01/07/2022  Time: 18:07:20.747                              
+REM   NPHASE    IDUM   IASG    NRELL   ICRYG 
+GLB1     1       1       1       0       0
+REM   JOBTYP   NPROF  NBCKGD   NEXCRG   NSCAT   NORI
+GLB1     1       7      33       2       0       0
+REM    IWGT    ILOR   IRESO    ISTEP    IXUNIT  ICORR 
+GLB2     0       0       0       0       0       0
+REM   IOT   IPL   IPC   MAT   NXT  lst1  lst2  lst3  NLIN  PL_PRF
+OUT1    0     0     1     0     2     0     4     0     0    -3
+REM   instr  JCIL  JSY  jlkh  jfou ISHOR ianaly
+OUT2    0     1     1     0     0     1     1
+REM    MAT   NXT   NLIN  JCIL  JSY  ISHOR 
+OUT1    0     2     0     1     1     1
+REM    IOT   IPL   IPC  LST1  LST2  LST3  
+OUT2    0     0     1     0     4     0
+REM  PL_PRF INSTR  JLKH JFOU  IANALY
+OUT3   -3     0     0     0     1
+DATT        0   0        0.00
+PHAS1      Sr2 Sc Sb O6             
+SPGR P 1 21/n 1          
+NATM    6
+COND    6   0   0  12
+ATOM Sb1      0.00000   0.00000   0.00000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sc1      0.00000   0.00000   0.50000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sr1      0.00000   0.50000   0.25000   0.32583   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11     -0.74590   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_2   -0.50000   0.50000  -0.24590   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_3   -0.25410   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+CELL    5.69441   5.68009   8.02620  90.00000  90.05038  90.00000
+SIGM    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+NNVK     0
+SCAL    1.098899961   0.000000000
+SHAP   0.00000  0.00000
+BOVE    0.0000   0.0000
+HUVW    0.1518   0.0000  -0.4215   0.0000   0.3815   0.0000
+PREF    0.0000   0.0000   0.0000   0.0000
+ASYM    0.0817   0.0000   0.0180   0.0000   0.0000   0.0000   0.0000   0.0000
+XYPA    0.0418   0.0000   0.0000   0.0000
+STRA    0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+SIZE    0.0000   0.0000   0.0000   0.0000
+ZERO    0.08460   0.00000
+RFAR   4.771      6.407      4.471      2.054    
+RFAC   9.841      10.60      7.395      2.054        2649
+DEVA   5509.      2.079     0.1199      1.879    
+RFBR   4.771      6.407      4.471      2.054    
+RFBC   9.841      10.60      7.395      2.054        2649
+DEVB   5509.      2.079     0.1199      1.879    
+BRAG1    6.038    4.211     259.606     100.000     875.885       1.000
+--------------------------------------------------------------------------------
+TITL   SrScLRRT P21/n modes LR RT
+FILES => PCR-file : srsclrrt_modes_sb_to_origin
+FILES => DAT-files: SrScLRRT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+DATE & TIME     Date: 01/07/2022  Time: 18:09:31.285                              
+REM   NPHASE    IDUM   IASG    NRELL   ICRYG 
+GLB1     1       1       1       0       0
+REM   JOBTYP   NPROF  NBCKGD   NEXCRG   NSCAT   NORI
+GLB1     1       7      33       2       0       0
+REM    IWGT    ILOR   IRESO    ISTEP    IXUNIT  ICORR 
+GLB2     0       0       0       0       0       0
+REM   IOT   IPL   IPC   MAT   NXT  lst1  lst2  lst3  NLIN  PL_PRF
+OUT1    0     0     1     0     2     0     4     0     0    -3
+REM   instr  JCIL  JSY  jlkh  jfou ISHOR ianaly
+OUT2    0     1     1     0     0     1     1
+REM    MAT   NXT   NLIN  JCIL  JSY  ISHOR 
+OUT1    0     2     0     1     1     1
+REM    IOT   IPL   IPC  LST1  LST2  LST3  
+OUT2    0     0     1     0     4     0
+REM  PL_PRF INSTR  JLKH JFOU  IANALY
+OUT3   -3     0     0     0     1
+DATT        0   0        0.00
+PHAS1      Sr2 Sc Sb O6             
+SPGR P 1 21/n 1          
+NATM    6
+COND    6   0   0  12
+ATOM Sb1      0.00000   0.00000   0.00000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sc1      0.00000   0.00000   0.50000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sr1      0.00000   0.50000   0.25000   0.32583   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11     -0.74590   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_2   -0.50000   0.50000  -0.24590   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_3   -0.25410   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+CELL    5.69439   5.68014   8.02619  90.00000  90.05080  90.00000
+SIGM    0.00005   0.00005   0.00007   0.00000   0.00150   0.00000
+NNVK     0
+SCAL    1.093276262   0.002505122
+SHAP   0.00000  0.00000
+BOVE    0.0000   0.0000
+HUVW    0.1506   0.0036  -0.4196   0.0082   0.3803   0.0040
+PREF    0.0000   0.0000   0.0000   0.0000
+ASYM    0.0826   0.0073   0.0182   0.0031   0.0000   0.0000   0.0000   0.0000
+XYPA    0.0434   0.0019   0.0000   0.0000
+STRA    0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+SIZE    0.0000   0.0000   0.0000   0.0000
+ZERO    0.08480   0.00137
+RFAR   4.775      6.396      4.461      2.056    
+RFAC   9.849      10.58      7.379      2.056        2637
+DEVA   5511.      2.089     0.1195      1.888    
+RFBR   4.775      6.396      4.461      2.056    
+RFBC   9.849      10.58      7.379      2.056        2637
+DEVB   5511.      2.089     0.1195      1.888    
+BRAG1    6.099    4.217     259.606     100.000     875.885       1.000
+EXRP    3.229   1.479
+REFL   518  124.03  150.75  210.02
+REFP     1   11    0
+SOLV   124.03  150.75  210.02
+SCOR     3.3290
+SCOR1      1.41    1.27    1.08
+--------------------------------------------------------------------------------
+TITL   SrScLRRT P21/n modes LR RT
+FILES => PCR-file : srsclrrt_modes_sb_to_origin
+FILES => DAT-files: SrScLRRT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+DATE & TIME     Date: 01/07/2022  Time: 18:11:14.301                              
+REM   NPHASE    IDUM   IASG    NRELL   ICRYG 
+GLB1     1       1       1       0       0
+REM   JOBTYP   NPROF  NBCKGD   NEXCRG   NSCAT   NORI
+GLB1     1       7      33       2       0       0
+REM    IWGT    ILOR   IRESO    ISTEP    IXUNIT  ICORR 
+GLB2     0       0       0       0       0       0
+REM   IOT   IPL   IPC   MAT   NXT  lst1  lst2  lst3  NLIN  PL_PRF
+OUT1    0     0     1     0     2     0     4     0     0    -3
+REM   instr  JCIL  JSY  jlkh  jfou ISHOR ianaly
+OUT2    0     1     1     0     0     1     1
+REM    MAT   NXT   NLIN  JCIL  JSY  ISHOR 
+OUT1    0     2     0     1     1     1
+REM    IOT   IPL   IPC  LST1  LST2  LST3  
+OUT2    0     0     1     0     4     0
+REM  PL_PRF INSTR  JLKH JFOU  IANALY
+OUT3   -3     0     0     0     1
+DATT        0   0        0.00
+PHAS1      Sr2 Sc Sb O6             
+SPGR P 1 21/n 1          
+NATM    6
+COND    6   0   0  12
+ATOM Sb1      0.00000   0.00000   0.00000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sc1      0.00000   0.00000   0.50000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sr1      0.00000   0.50000   0.25000   0.32583   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11     -0.74590   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_2   -0.50000   0.50000  -0.24590   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_3   -0.25410   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+CELL    5.69439   5.68014   8.02619  90.00000  90.05083  90.00000
+SIGM    0.00005   0.00005   0.00007   0.00000   0.00155   0.00000
+NNVK     0
+SCAL    1.093131304   0.002542919
+SHAP   0.00000  0.00000
+BOVE    0.0000   0.0000
+HUVW    0.1505   0.0037  -0.4196   0.0082   0.3802   0.0040
+PREF    0.0000   0.0000   0.0000   0.0000
+ASYM    0.0827   0.0073   0.0182   0.0031   0.0000   0.0000   0.0000   0.0000
+XYPA    0.0435   0.0020   0.0000   0.0000
+STRA    0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+SIZE    0.0000   0.0000   0.0000   0.0000
+ZERO    0.08481   0.00139
+RFAR   4.773      6.395      4.451      2.065    
+RFAC   9.846      10.58      7.362      2.065        2625
+DEVA   5511.      2.098     0.1194      1.897    
+RFBR   4.773      6.395      4.451      2.065    
+RFBC   9.846      10.58      7.362      2.065        2625
+DEVB   5511.      2.098     0.1194      1.897    
+BRAG1    6.100    4.215     259.607     100.000     875.885       1.000
+EXRP    3.276   1.457
+REFL   518  124.03  150.82  210.02
+REFP     1   23    0
+SOLV   124.03  150.82  210.02
+SCOR     3.3283
+SCOR1      1.40    1.27    1.08
+--------------------------------------------------------------------------------
+TITL   SrScLRRT P21/n modes LR RT
+FILES => PCR-file : srsclrrt_modes_sb_to_origin
+FILES => DAT-files: SrScLRRT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+DATE & TIME     Date: 01/07/2022  Time: 18:16:48.809                              
+REM   NPHASE    IDUM   IASG    NRELL   ICRYG 
+GLB1     1       1       1       0       0
+REM   JOBTYP   NPROF  NBCKGD   NEXCRG   NSCAT   NORI
+GLB1     1       7      33       2       0       0
+REM    IWGT    ILOR   IRESO    ISTEP    IXUNIT  ICORR 
+GLB2     0       0       0       0       0       0
+REM   IOT   IPL   IPC   MAT   NXT  lst1  lst2  lst3  NLIN  PL_PRF
+OUT1    0     0     1     0     2     0     4     0     0    -3
+REM   instr  JCIL  JSY  jlkh  jfou ISHOR ianaly
+OUT2    0     1     1     0     0     1     1
+REM    MAT   NXT   NLIN  JCIL  JSY  ISHOR 
+OUT1    0     2     0     1     1     1
+REM    IOT   IPL   IPC  LST1  LST2  LST3  
+OUT2    0     0     1     0     4     0
+REM  PL_PRF INSTR  JLKH JFOU  IANALY
+OUT3   -3     0     0     0     1
+DATT        0   0        0.00
+TITL   SrScLRRT P21/n modes LR RT
+FILES => PCR-file : srsclrrt_modes_sb_to_origin
+FILES => DAT-files: SrScLRRT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+DATE & TIME     Date: 01/07/2022  Time: 18:17:09.579                              
+REM   NPHASE    IDUM   IASG    NRELL   ICRYG 
+GLB1     1       1       1       0       0
+REM   JOBTYP   NPROF  NBCKGD   NEXCRG   NSCAT   NORI
+GLB1     1       7      33       2       0       0
+REM    IWGT    ILOR   IRESO    ISTEP    IXUNIT  ICORR 
+GLB2     0       0       0       0       0       0
+REM   IOT   IPL   IPC   MAT   NXT  lst1  lst2  lst3  NLIN  PL_PRF
+OUT1    0     0     1     0     2     0     4     0     0    -3
+REM   instr  JCIL  JSY  jlkh  jfou ISHOR ianaly
+OUT2    0     1     1     0     0     1     1
+REM    MAT   NXT   NLIN  JCIL  JSY  ISHOR 
+OUT1    0     2     0     1     1     1
+REM    IOT   IPL   IPC  LST1  LST2  LST3  
+OUT2    0     0     1     0     4     0
+REM  PL_PRF INSTR  JLKH JFOU  IANALY
+OUT3   -3     0     0     0     1
+DATT        0   0        0.00
+PHAS1      Sr2 Sc Sb O6             
+SPGR P 1 21/n 1          
+NATM    6
+COND    6   0   0  12
+ATOM Sb1      0.00000   0.00000   0.00000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sc1      0.00000   0.00000   0.50000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sr1      0.00000   0.50000   0.25000   0.32583   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11     -0.74590   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_2   -0.50000   0.50000  -0.24590   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_3   -0.25410   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+CELL    5.69441   5.68009   8.02621  90.00000  90.05058  90.00000
+SIGM    0.00005   0.00005   0.00007   0.00000   0.00154   0.00000
+NNVK     0
+SCAL    1.092592597   0.002540421
+SHAP   0.00000  0.00000
+BOVE    0.0000   0.0000
+HUVW    0.1506   0.0037  -0.4197   0.0082   0.3801   0.0040
+PREF    0.0000   0.0000   0.0000   0.0000
+ASYM    0.0819   0.0073   0.0181   0.0031   0.0000   0.0000   0.0000   0.0000
+XYPA    0.0433   0.0020   0.0000   0.0000
+STRA    0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+SIZE    0.0000   0.0000   0.0000   0.0000
+ZERO    0.08461   0.00138
+RFAR   4.803      6.412      4.457      2.070    
+RFAC   9.907      10.61      7.372      2.070        2632
+DEVA   5543.      2.105     0.1187      1.892    
+RFBR   4.803      6.412      4.457      2.070    
+RFBC   9.907      10.61      7.372      2.070        2632
+DEVB   5543.      2.105     0.1187      1.892    
+BRAG1    6.153    4.263     259.605     100.000     875.885       1.000
+EXRP    3.337   1.439
+REFL   518  124.09  150.74  210.86
+REFP     1   16    0
+SOLV   124.09  150.74  210.86
+SCOR     3.4858
+SCOR1      1.40    1.27    1.08
+--------------------------------------------------------------------------------
+TITL   SrScLRRT P21/n modes LR RT
+FILES => PCR-file : srsclrrt_modes_sb_to_origin
+FILES => DAT-files: SrScLRRT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+DATE & TIME     Date: 01/07/2022  Time: 18:19:05.235                              
+REM   NPHASE    IDUM   IASG    NRELL   ICRYG 
+GLB1     1       1       1       0       0
+REM   JOBTYP   NPROF  NBCKGD   NEXCRG   NSCAT   NORI
+GLB1     1       7      33       2       0       0
+REM    IWGT    ILOR   IRESO    ISTEP    IXUNIT  ICORR 
+GLB2     0       0       0       0       0       0
+REM   IOT   IPL   IPC   MAT   NXT  lst1  lst2  lst3  NLIN  PL_PRF
+OUT1    0     0     1     0     2     0     4     0     0    -3
+REM   instr  JCIL  JSY  jlkh  jfou ISHOR ianaly
+OUT2    0     1     1     0     0     1     1
+REM    MAT   NXT   NLIN  JCIL  JSY  ISHOR 
+OUT1    0     2     0     1     1     1
+REM    IOT   IPL   IPC  LST1  LST2  LST3  
+OUT2    0     0     1     0     4     0
+REM  PL_PRF INSTR  JLKH JFOU  IANALY
+OUT3   -3     0     0     0     1
+DATT        0   0        0.00
+PHAS1      Sr2 Sc Sb O6             
+SPGR P 1 21/n 1          
+NATM    6
+COND    6   0   0  12
+ATOM Sb1      0.00000   0.00000   0.00000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sc1      0.00000   0.00000   0.50000   0.14020   0.50000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM Sr1      0.00000   0.50000   0.25000   0.32583   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11     -0.74590   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_2   -0.50000   0.50000  -0.24590   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+ATOM O11_3   -0.25410   0.25410   0.00000   0.49182   1.00000  0  0    1
+SIGM        0.00000   0.00000   0.00000   0.00000   0.00000
+CELL    5.69441   5.68009   8.02621  90.00000  90.05055  90.00000
+SIGM    0.00005   0.00005   0.00007   0.00000   0.00154   0.00000
+NNVK     0
+SCAL    1.092597365   0.002540883
+SHAP   0.00000  0.00000
+BOVE    0.0000   0.0000
+HUVW    0.1506   0.0037  -0.4197   0.0082   0.3801   0.0040
+PREF    0.0000   0.0000   0.0000   0.0000
+ASYM    0.0819   0.0073   0.0181   0.0031   0.0000   0.0000   0.0000   0.0000
+XYPA    0.0433   0.0020   0.0000   0.0000
+STRA    0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+SIZE    0.0000   0.0000   0.0000   0.0000
+ZERO    0.08460   0.00138
+RFAR   4.802      6.411      4.457      2.069    
+RFAC   9.905      10.60      7.372      2.069        2632
+DEVA   5541.      2.104     0.1187      1.892    
+RFBR   4.802      6.411      4.457      2.069    
+RFBC   9.905      10.60      7.372      2.069        2632
+DEVB   5541.      2.104     0.1187      1.892    
+BRAG1    6.151    4.262     259.605     100.000     875.885       1.000
+EXRP    3.228   1.487
+REFL   518  124.09  150.83  210.86
+REFP     1   16    0
+SOLV   124.09  150.83  210.86
+SCOR     3.4848
+SCOR1      1.40    1.27    1.08
+--------------------------------------------------------------------------------

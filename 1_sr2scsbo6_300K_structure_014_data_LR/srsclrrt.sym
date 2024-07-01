@@ -1,0 +1,110 @@
+   SrScLRRT I2/M LR RT
+
+            --------------------------------
+            SYMMETRY INFORMATION ON PHASE: 1
+            --------------------------------
+
+
+ => Symmetry information on space group: P 1 21/N 1          
+ -> The multiplicity of the general position is:   4
+ -> The space group is Centric (-1 at origin)   
+ -> Lattice type  P: { 000 }                                       
+ -> Reduced set of symmetry operators:
+
+  No.  IT   Symmetry symbol    Rotation part     Associated Translation
+   1: ( 1)   1            -->     ( x, y, z) + {  0.0000  0.0000  0.0000}
+   2: ( 3)   2 ( 0, y, 0) -->     (-x, y,-z) + {  0.5000  0.5000  0.5000}
+
+
+        Information on Space Group: 
+        --------------------------- 
+
+ =>   Number of Space group:  14
+ =>  Hermann-Mauguin Symbol: P 1 21/n 1
+ =>             Hall Symbol: -P 2yn
+ =>    Table Setting Choice: b2
+ =>            Setting Type: IT (Generated from Hermann-Mauguin symbol)
+ =>          Crystal System: Monoclinic
+ =>              Laue Class: 2/m
+ =>             Point Group: 2/m
+ =>         Bravais Lattice: P
+ =>          Lattice Symbol: mP
+ =>  Reduced Number of S.O.:   2
+ =>    General multiplicity:   4
+ =>          Centrosymmetry: Centric (-1 at origin)
+ =>  Generators (exc. -1&L):   1
+ =>         Asymmetric unit:  0.000 <= x <=  1.000
+                              0.000 <= y <=  0.250
+                              0.000 <= z <=  1.000
+ => Centring vectors:  0
+                                                                                                    
+
+ => List of all Symmetry Operators and Symmetry Symbols
+
+ => SYMM(  1): x,y,z                             Symbol: 1
+ => SYMM(  2): -x+1/2,y+1/2,-z+1/2               Symbol: 2 (0,1/2,0) 1/4,y,1/4
+ => SYMM(  3): -x,-y,-z                          Symbol: -1 0,0,0
+ => SYMM(  4): x+1/2,-y+1/2,z+1/2                Symbol: n (1/2,0,1/2) x,1/4,z
+
+       -------------------------------------------------
+       INFORMATION ON SITE SYMMETRY OF ATOMS IN PHASE: 1
+       -------------------------------------------------
+
+
+  -> Information on Atom: Sb     at position:    0.00000   0.50000   0.00000  Multiplicity:   2
+     List of symmetry operators and symmetry elements of the site point group:
+     Operator  2:  -x,-y+1,-z                    -1 0,1/2,0
+
+     --> Complete orbit of the atom: Sb    
+
+         Sb(  1)     0.00000  0.50000  0.00000    x,y,z
+         Sb(  2)     0.50000  0.00000  0.50000    -x+1/2,y+1/2,-z+1/2
+
+  -> Information on Atom: Sc     at position:    0.50000   0.00000   0.00000  Multiplicity:   2
+     List of symmetry operators and symmetry elements of the site point group:
+     Operator  2:  -x+1,-y,-z                    -1 1/2,0,0
+
+     --> Complete orbit of the atom: Sc    
+
+         Sc(  1)     0.50000  0.00000  0.00000    x,y,z
+         Sc(  2)     0.00000  0.50000  0.50000    -x+1/2,y+1/2,-z+1/2
+
+  -> Information on Atom: Sr     at position:    0.00023   0.00977   0.25025  Multiplicity:   4
+     The above atom is in a general position (no constraints in atom positions)
+
+     --> Complete orbit of the atom: Sr    
+
+         Sr(  1)     0.00023  0.00977  0.25025    x,y,z
+         Sr(  2)     0.49977  0.50977  0.24975    -x+1/2,y+1/2,-z+1/2
+         Sr(  3)     0.99977  0.99023  0.74975    -x,-y,-z
+         Sr(  4)     0.50023  0.49023  0.75025    x+1/2,-y+1/2,z+1/2
+
+  -> Information on Atom: O1     at position:    0.25933   0.27162   0.02536  Multiplicity:   4
+     The above atom is in a general position (no constraints in atom positions)
+
+     --> Complete orbit of the atom: O1    
+
+         O1(  1)     0.25933  0.27162  0.02536    x,y,z
+         O1(  2)     0.24067  0.77162  0.47464    -x+1/2,y+1/2,-z+1/2
+         O1(  3)     0.74067  0.72838  0.97464    -x,-y,-z
+         O1(  4)     0.75933  0.22838  0.52536    x+1/2,-y+1/2,z+1/2
+
+  -> Information on Atom: O2     at position:    0.27538   0.26338   0.47468  Multiplicity:   4
+     The above atom is in a general position (no constraints in atom positions)
+
+     --> Complete orbit of the atom: O2    
+
+         O2(  1)     0.27538  0.26338  0.47468    x,y,z
+         O2(  2)     0.22462  0.76338  0.02532    -x+1/2,y+1/2,-z+1/2
+         O2(  3)     0.72462  0.73662  0.52532    -x,-y,-z
+         O2(  4)     0.77538  0.23662  0.97468    x+1/2,-y+1/2,z+1/2
+
+  -> Information on Atom: O3     at position:    0.94813   0.49532   0.24404  Multiplicity:   4
+     The above atom is in a general position (no constraints in atom positions)
+
+     --> Complete orbit of the atom: O3    
+
+         O3(  1)     0.94813  0.49532  0.24404    x,y,z
+         O3(  2)     0.55187  0.99532  0.25596    -x+1/2,y+1/2,-z+1/2
+         O3(  3)     0.05187  0.50468  0.75596    -x,-y,-z
+         O3(  4)     0.44813  0.00468  0.74404    x+1/2,-y+1/2,z+1/2

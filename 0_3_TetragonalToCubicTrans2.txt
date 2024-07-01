@@ -1,0 +1,112 @@
+Used data for the modes calculation in the Sr2ScSbO6
+
+Cubic phase structure (Fm-3m) from Carlo X-ray data
+
+225
+8.087481 8.087481 8.087481 90.00000 90.00000 90.00000
+4
+Sc    1   4b    0.00000 0.00000 0.00000                 
+Sb    1   4a    0.50000 0.50000 0.50000                 
+Sr    1   8c    0.25000 0.25000 0.25000                 
+O     11  24e   0.25410 0.00000 0.00000  
+                
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Tetragonal phase structure (I4/m) from ILL2008 D2b neutron data at 600K
+
+87
+5.69291   5.69291   8.0641  90.000000  90.000000  90.000000
+5
+Sb 1    -      0.00000  0.00000  0.50000  
+Sc 1    -      0.00000  0.00000  0.00000  
+Sr 1    -      0.00000  0.50000  0.25000  
+O  1    -      0.00000  0.00000  0.25623  
+O  2    -      0.28709  0.22501  0.00000      
+                                                                                                
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Transfomration matrix:
+
+ 0.5    0.5    0       0
+-0.5    0.5    0       0
+ 0      0      1       0
+
+
+
+
+                
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+AMPLIMODES results
+
+Symmetry mode analysis
+
+Symmetry mode analysis
+High symmetry structure
+225
+8.087481 8.087481 8.087481 90.00000 90.00000 90.00000
+4
+Sc	1	4a	0.000000	0.000000	0.000000
+Sb	1	4b	0.500000	0.500000	0.500000
+Sr	1	8c	0.250000	0.250000	0.250000
+O	11	24e	0.254100	0.000000	0.000000
+Low symmetry structure
+87
+5.69291 5.69291 8.0641 90.000000 90.000000 90.000000
+5
+Sb	1	2b	0.000000	0.000000	0.500000
+Sc	1	2a	0.000000	0.000000	0.000000
+Sr	1	4d	0.000000	0.500000	0.250000
+O	1	4e	0.000000	0.000000	0.256230
+O	2	8h	0.287090	0.225010	0.000000
+Transformation matrix
+[   1/2   1/2     0 ] [      0]
+[  -1/2   1/2     0 ] [      0]
+[     0     0     1 ] [      0]Transformed high symmetry structure in the subgroup basis
+Reference Structure
+
+087
+5.718712 5.718712 8.087481 90.000000 90.000000 90.000000 
+5
+Sc	1	2a	0.000000	0.000000	0.000000
+Sb	1	2b	0.000000	0.000000	0.500000
+Sr	1	4d	0.000000	0.500000	0.250000
+O	11	8h	0.254100	0.254100	0.000000
+O	11_2	4e	0.000000	0.000000	0.254100
+Atom pairings and distances
+Atom Mappings 
+WP Atom Reference Struc. Atom Low Sym Struc. 
+2a (0,0,0) Sc1 (0.000000,0.000000,0.000000) Sc1 (0.000000,0.000000,0.000000) 
+2b (0,0,1/2) Sb1 (0.000000,0.000000,0.500000) Sb1 (0.000000,0.000000,0.500000) 
+4d (0,1/2,1/4) Sr1 (0.000000,0.500000,0.250000) Sr1 (0.000000,0.500000,0.250000) 
+8h (x,y,0) O11 (0.254100,0.254100,0.000000) O2 (0.287090,0.225010,0.000000) 
+4e (0,0,z) O11_2 (0.000000,0.000000,0.254100) O1 (0.000000,0.000000,0.256230) 
+
+
+WP Atom Atomic Displacements 
+ux uy uz |u| 
+2a (0,0,0) Sc1 0.0000  0.0000  0.0000  0.0000 
+2b (0,0,1/2) Sb1 0.0000  0.0000  0.0000  0.0000 
+4d (0,1/2,1/4) Sr1 0.0000  0.0000  0.0000  0.0000 
+8h (x,y,0) O11 0.0330  -0.0291  0.0000  0.2515 
+4e (0,0,z) O11_2 0.0000  0.0000  0.0021  0.0172 
+
+NOTE: ux, uy and uz are given in relative units. |u| is the absolute distance given in Å
+Maximum atomic displacement in the distortion, ?: 0.2515 Å
+Total distortion amplitude: 0.5036 Å
+
+Symmetry Modes Summary
+Atoms WP Modes 
+O11 24e GM1+(1) GM3+(1) GM4+(1) 
+Note: The primary mode is written in bold letters
+
+
+Summary of Amplitudes
+K-vector Irrep Direction Isotropy
+Subgroup Dimension Amplitude (Å) 
+(0,0,0) GM1+ (a) Fm-3m (225) 1 0.0398 
+(0,0,0) GM3+ (a,0) I4/mmm (139) 1 0.0017 
+(0,0,0) GM4+ (0,0,a) I4/m (87) 1 0.5021 
+
+Global distortion: 0.5036 Å
+

@@ -1,0 +1,7 @@
+  Subroutine Calc_BVS (JRC-LLB, version: March-2005)
+  Title: Summary of Bond-Valence calculations for file: srsclrrt_modes_sb_to_origin_1.cfl
+   Atom      Coord  D_aver Sigm   Distort(x10-4)    Valence    BVSum(Sigma)
+ =>  Old Global Instability Index (  GII=SQRT{SUM{|BVS-abs(q)|^2}/Num_Atoms} ) =   0.00 /100
+ =>  Normalized   GII(a)=       SUM {|BVS-abs(q)|  *mult}       /N_Atoms_UCell =   0.00 /100
+ =>  Normalized   GII(b)=       SUM {|BVS-abs(q)|  *mult/abs(q)}/N_Atoms_UCell =   0.00 %
+ =>  Normalized   GII(c)= SQRT{ SUM {|BVS-abs(q)|^2*mult}       /N_Atoms_UCell}=   0.00 /100

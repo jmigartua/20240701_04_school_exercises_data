@@ -1,0 +1,67 @@
+##############################################################################
+###      FullProf-generated Simple CIF       (version: November 2017)      ###
+###      Simple CIF for structure visualization and exchange               ###
+##############################################################################
+ 
+#=============================================================================
+# If more than one structure is reported, the remaining sections should be 
+# completed per structure. For each data set, replace the '?' in the
+# data_? line below by a unique identifier.
+ 
+data_    
+ 
+#=============================================================================
+ 
+ 
+_symmetry_cell_setting                Monoclinic
+_symmetry_space_group_name_H-M       'P 1 21/n 1'
+_symmetry_space_group_name_Hall      '-P 2yn'
+ 
+loop_
+    _symmetry_equiv_pos_as_xyz   #<--must include 'x,y,z'
+'x,y,z'
+'-x+1/2,y+1/2,-z+1/2'
+'-x,-y,-z'
+'x+1/2,-y+1/2,z+1/2'
+ 
+_cell_length_a                       5.69441(5)
+_cell_length_b                       5.68009(5)
+_cell_length_c                       8.02621(7)
+_cell_angle_alpha                    90.0000
+_cell_angle_beta                     90.0506(15)
+_cell_angle_gamma                    90.0000
+_cell_volume                         259.605(4)
+_cell_formula_units_Z                ?
+_cell_measurement_temperature        ?
+_cell_special_details
+; ?
+;
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+ 
+loop_
+    _atom_site_label
+    _atom_site_fract_x
+    _atom_site_fract_y
+    _atom_site_fract_z
+    _atom_site_U_iso_or_equiv
+    _atom_site_occupancy
+    _atom_site_adp_type
+    _atom_site_type_symbol
+ Sb1  0.00000  0.00000  0.00000  0.00178  1.00000 Uiso Sb    
+ Sc1  0.00000  0.00000  0.50000  0.00178  1.00000 Uiso Sc    
+ Sr1  0.00000  0.50000  0.25000  0.00413  1.00000 Uiso Sr    
+ O11 -0.7459  0.25410  0.00000  0.00623  1.00000 Uiso O     
+ O11_2 -0.5000  0.50000 -0.2459  0.00623  1.00000 Uiso O     
+ O11_3 -0.2541  0.25410  0.00000  0.00623  1.00000 Uiso O     
+ 
+#=============================================================================
+ 
+#=============================================================================
+# Additional structures (last six sections and associated data_? identifiers) 
+# may be added at this point.                                                 
+#=============================================================================
+ 
+# The following lines are used to test the character set of files sent by     
+# network email or other means. They are not part of the CIF data set.        
+# abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789              
+# !@#$%^&*()_+{}:"~<>?|\-=[];'`,./ 
